@@ -1,7 +1,1 @@
-{
-  "networking": {
-    "allowedIpRanges": [
-      "193.186.5.0/24"
-    ]
-  }
-}
+{"networking":{"allowedIpRanges":["193.186.5.0/24"]},"auth":{"rolesSource":"/api/roleAssignments","identityProviders":{"azureActiveDirectory":{"registration":{"openIdIssuer":"https://login.microsoftonline.com/c273e073-fc07-4d01-ac14-8986338fb4b7","clientIdSettingName":"AZURE_CLIENT_ID","clientSecretSettingName":"AZURE_CLIENT_SECRET_APP_SETTING_NAME"}}}}}
